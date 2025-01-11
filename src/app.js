@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 // Connect to the database
 connectDB();
 
-// Start the background job
+// Starts the background job
 startJob();
 
 // Use the routes
