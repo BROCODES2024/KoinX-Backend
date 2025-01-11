@@ -1,7 +1,8 @@
 const express = require("express");
 const connectDB = require("./config/db");
+const cryptoRoutes = require("./routes/cryptoroutes");
+// Importing the routes
 const startJob = require("./jobs/pricefetch");
-const cryptoRoutes = require("./routes/cryptoroutes"); // Importing the routes
 require("dotenv").config();
 
 const app = express();
